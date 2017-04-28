@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+}
+body {
+	font: 62.5%/1.5 Verdana, Arial, Helvetica , sans-serif;
+	color: #ffffff;
+	/*background: #000000;*/
+	background: #000000 url(back.jpg) no-repeat fixed 50% 10px;
+	padding: 20px;
+
+}
+#wrapper {
+	padding: 18px;
+	font-size: 1.2em;
+	/*#line-height: 1.5em;*/
+	margin:  0 auto;
+	width: 500px;
+}
+h1 {
+	font: 1.5em/1.8em Arial, sans-serif;
+	text-transform: uppercase;
+}
+ul {
+	padding-left: 20px;
+	font-size: 3em;
+	list-style-image: url('smiley_1.png');
+}
+ol {
+padding-left:50px;
+font-size: 2em;
+list-style-type: square;
+}
+
+blockquote {
+margin: 0 100px;
+border-left:3px solid #888888;
+border-right:3px solid #888888;
+padding: 0 20px;
+}
+blockquote p {
+font-weight: bold;
+font-style: italic;
+font-size: 1.2em;
+}
+img  {
+	border: 1px solid #666666;
+}
+
+#popup a:link, #popup a:visited  {
+position: relative;
+display: block;
+width: 500px;
+text-decoration: none;
+color: #000000;
+}
+#popup a span {
+position: absolute;
+left: -1000px;
+top: -1000px;
+}
+#popup a:active span  {
+display: block;
+position: relative;
+left:0;
+top:0;
+width:360px;
+color: #000000;
+font: 1.1em/1.5 Arial, Helvetica, sans-serif ;
+margin-top: -335px;
+margin-left: 50px;
+padding: 20px;
+background-color: #e0e4ef;
+border: 1px solid #666666;
+
+}
+#popup a:hover span img, #popup a:focus	 span img, #popup a:active span img {
+border: 1px solid #666666;
+float:right;
+}
+
